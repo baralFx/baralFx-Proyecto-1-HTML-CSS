@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio profesional de Diego – Estudiante de ASIR y apasionado de la ciberseguridad, redes y programación." />
+  <meta name="author" content="Diego" />
+  <meta name="keywords" content="ASIR, ciberseguridad, redes, programación, portfolio, Guadalajara, España, hacking ético, Cisco, Python" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Diego | ASIR &amp; Ciberseguridad</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">DIEGO<span class="logo-dot">_</span></span>
+        <span class="logo-bracket">]</span>
+      </div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#sobre-mi" class="nav-link"><span class="nav-num">01.</span> Sobre mí</a></li>
+          <li><a href="#portfolio" class="nav-link"><span class="nav-num">02.</span> Portfolio</a></li>
+          <li><a href="#contacto" class="nav-link"><span class="nav-num">03.</span> Contacto</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Presentación">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-scanlines" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-pre">// Inicializando sistema...</p>
+        <h1 class="hero-title">
+          <span class="hero-name">Diego</span>
+          <span class="hero-role">Estudiante ASIR<span class="cursor">▮</span></span>
+        </h1>
+        <p class="hero-desc">
+          Apasionado de la <strong>ciberseguridad</strong>, redes y automatización.
+          Construyendo el camino hacia el <em>hacking ético</em> y la defensa de sistemas.
+        </p>
+        <div class="hero-tags" aria-label="Habilidades destacadas">
+          <span class="tag">Kali Linux</span>
+          <span class="tag">Cisco</span>
+          <span class="tag">Python</span>
+          <span class="tag">TryHackMe</span>
+          <span class="tag">CTF</span>
+        </div>
+        <a href="#portfolio" class="btn-primary">Ver proyectos <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-terminal" aria-hidden="true">
+        <div class="terminal-bar">
+          <span class="t-dot t-red"></span>
+          <span class="t-dot t-yellow"></span>
+          <span class="t-dot t-green"></span>
+          <span class="t-title">terminal — bash</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="t-prompt">diego@asir:~$</span> whoami</p>
+          <p class="t-output">diego — estudiante ASIR &amp; cyber enthusiast</p>
+          <p><span class="t-prompt">diego@asir:~$</span> cat habilidades.txt</p>
+          <p class="t-output">→ Redes TCP/IP, VLANs, OSPF</p>
+          <p class="t-output">→ Hacking ético, CTF, honeypots</p>
+          <p class="t-output">→ Python, Bash, JavaScript</p>
+          <p><span class="t-prompt">diego@asir:~$</span> <span class="blink">▮</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section id="sobre-mi" class="section sobre-mi">
+      <div class="container">
+        <h2 class="section-title"><span class="section-num">01.</span> Sobre mí</h2>
+        <div class="sobre-grid">
+          <div class="sobre-text">
+            <p>
+              Soy Diego, estudiante de <strong>ASIR (Administración de Sistemas Informáticos en Red)</strong>
+              en el Centro Prometeo, Guadalajara. Mi mayor motivación es la <strong>ciberseguridad</strong>:
+              desde el análisis de vulnerabilidades hasta la defensa activa de infraestructuras.
+            </p>
+            <p>
+              Fuera del aula practico en plataformas como <strong>TryHackMe</strong> (perfil: Baral),
+              completo retos CTF y experimento con honeypots en Raspberry Pi.
+              También tengo experiencia en servicios VIP y trabajo en equipo en entornos de alta exigencia.
+            </p>
+            <p>
+              Idiomas: <strong>Español</strong> (nativo) · <strong>Inglés</strong> (avanzado) · <strong>Chino</strong> (HSK3)
+            </p>
+            <div class="skills-bar-list" aria-label="Nivel de habilidades">
+              <div class="skill-bar-item">
+                <span class="skill-name">Redes &amp; Cisco</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-fill" style="--pct: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <span class="skill-name">Linux / Bash</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-fill" style="--pct: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <span class="skill-name">Ciberseguridad</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-fill" style="--pct: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <span class="skill-name">Python / JS</span>
+                <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <div class="skill-fill" style="--pct: 65%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-avatar" aria-hidden="true">
+            <div class="avatar-frame">
+              <div class="avatar-inner">
+                <img src="foto-perfil.png" alt="Foto de perfil" class="avatar-img" />
+                <p class="avatar-label">// user profile</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2 class="section-title"><span class="section-num">02.</span> Portfolio</h2>
+        <p class="section-sub">Proyectos propios y ejercicios de formación</p>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-icon" aria-hidden="true">🍯</span>
+              <span class="project-lang">Python · Raspberry Pi</span>
+            </div>
+            <h3 class="project-title">Honeypot SSH con Cowrie</h3>
+            <p class="project-desc">
+              Despliegue de un honeypot SSH usando Cowrie en una Raspberry Pi 5.
+              Captura y análisis de intentos de acceso no autorizados, generando logs
+              detallados de atacantes reales.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">Cowrie</span>
+              <span class="ptag">SSH</span>
+              <span class="ptag">Blue Team</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-icon" aria-hidden="true">🌐</span>
+              <span class="project-lang">Cisco Packet Tracer</span>
+            </div>
+            <h3 class="project-title">Red Empresarial con VLANs</h3>
+            <p class="project-desc">
+              Diseño e implementación de una red empresarial completa con router-on-a-stick,
+              múltiples VLANs, DHCP, enrutamiento OSPF, SSH y ACLs de seguridad.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">VLANs</span>
+              <span class="ptag">OSPF</span>
+              <span class="ptag">ACL</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-icon" aria-hidden="true">🔍</span>
+              <span class="project-lang">Python · Bash</span>
+            </div>
+            <h3 class="project-title">Script de Reconocimiento CTF</h3>
+            <p class="project-desc">
+              Herramienta automatizada para reconocimiento inicial en retos CTF.
+              Integra nmap, gobuster y enum4linux, generando un informe estructurado
+              con vectores de ataque potenciales.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">nmap</span>
+              <span class="ptag">gobuster</span>
+              <span class="ptag">CTF</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-icon" aria-hidden="true">🧮</span>
+              <span class="project-lang">HTML · CSS · JS</span>
+            </div>
+            <h3 class="project-title">Calculadora de Subredes IP</h3>
+            <p class="project-desc">
+              Aplicación web para calcular subredes, máscara de red, rango de hosts
+              y broadcast de forma visual. Útil para el estudio de redes y
+              configuración de equipos.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">Subnetting</span>
+              <span class="ptag">Frontend</span>
+              <span class="ptag">TCP/IP</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-icon" aria-hidden="true">🛡️</span>
+              <span class="project-lang">TryHackMe · Burp Suite</span>
+            </div>
+            <h3 class="project-title">Explotación SSRF con Gopher</h3>
+            <p class="project-desc">
+              Resolución de sala avanzada de SSRF en TryHackMe usando el protocolo
+              Gopher para redirigir peticiones internas y capturar flags en
+              servicios no expuestos.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">SSRF</span>
+              <span class="ptag">Burp Suite</span>
+              <span class="ptag">Red Team</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-icon" aria-hidden="true">📄</span>
+              <span class="project-lang">Node.js · docx</span>
+            </div>
+            <h3 class="project-title">Procesador de Documentos Académicos</h3>
+            <p class="project-desc">
+              Herramienta en Node.js para procesar, reescribir y expandir documentos
+              académicos extensos en formato .docx, manteniendo estructura y estilo
+              originales de forma automatizada.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">Node.js</span>
+              <span class="ptag">Automatización</span>
+              <span class="ptag">docx</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="section contacto">
+      <div class="container">
+        <h2 class="section-title"><span class="section-num">03.</span> Contacto</h2>
+        <p class="section-sub">¿Tienes un proyecto o propuesta? Escríbeme.</p>
+        <div class="contacto-inner">
+          <form class="contact-form" action="#" method="post" novalidate>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar mensaje <span aria-hidden="true">→</span></button>
+          </form>
+          <div class="contact-info" aria-label="Información adicional de contacto">
+            <div class="info-item">
+              <span class="info-label">// Ubicación</span>
+              <span class="info-value">Guadalajara, España</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">// Estudios</span>
+              <span class="info-value">ASIR – Centro Prometeo</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">// TryHackMe</span>
+              <span class="info-value">Baral</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">// Disponibilidad</span>
+              <span class="info-value">Prácticas / Proyectos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2025 Diego · Todos los derechos reservados</p>
+      <nav aria-label="Redes sociales">
+        <ul class="social-list">
+          <li>
+            <a href="https://tryhackme.com/p/Baral" target="_blank" rel="noopener noreferrer" aria-label="TryHackMe perfil de Diego">
+              TryHackMe
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Diego">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Diego">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    /* Menú hamburguesa responsive */
+    const toggle = document.querySelector('.nav-toggle');
+    const navList = document.querySelector('.nav-list');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navList.classList.toggle('open');
+    });
+    /* Cierra el menú al hacer click en un enlace */
+    navList.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navList.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+</body>
+</html>
